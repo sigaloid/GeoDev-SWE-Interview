@@ -15,7 +15,7 @@ The GeoDev team wishes to give every aspiring team member a fair chance to show 
     - [Download](https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe) for Windows.
 5. A code editor like [VSCode](https://code.visualstudio.com/) (Optional)
 
-When you have completed these steps. Try running the following commands in a terminal (or Command Prompt if Windows):
+When you have completed these steps, try running the following commands in a terminal (or Command Prompt if Windows):
 
 ```
 npm --version
@@ -26,3 +26,11 @@ python3 --version
 ![]()
 
 ## Getting Started
+
+At this point, feel free to open a Command Prompt like the one in the image above. Here is an example:
+
+```
+cd documents
+git clone https://github.com/jacobsomer/GeoDev-SWE-Interview.git
+cd GeoDev-SWE-Interview
+```
