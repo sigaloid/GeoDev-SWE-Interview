@@ -7,7 +7,7 @@ The GeoDev team wishes to give every aspiring team member a fair chance to show 
 ## Prerequisites
 
 1. Basic understanding of Python (i.e. intro to cs, intro to data science, or self-taught)
-2. A recent version of [Node JS](https://nodejs.org/en/) installed on your machine
+2. A recent version of [Node JS](https://nodejs.org/en/) installed on your computer
 3. An installation of `Python 3.7 or newer`.
     - [download](https://www.python.org/ftp/python/3.10.4/python-3.10.4-macos11.pkg) for macOS
     - [download](https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe) for Windows.
