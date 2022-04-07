@@ -2,7 +2,7 @@
 
 ## Why an assignment for our interview?
 
-The GeoDev team wishes to give every aspiring team member a fair chance to show off their skills. Traditionally, coding interviews test how hard students study, but they fail to test how good someone is at the actual job. This assignment walks students through a GeoDev-like codebase where students are given the opportunity learn, have fun, and accomplish a real GeoLab-like task.
+The GeoDev team wishes to give every aspiring team member a fair chance to show off their skills. Traditionally, coding interviews test how hard students study, but they fail to test how good someone is at the actual job. This assignment walks students through a full-stack codebase where students are given the opportunity learn, have fun, and accomplish a real GeoLab task.
 
 ## Prerequisites
 
