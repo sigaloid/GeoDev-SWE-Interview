@@ -1,13 +1,14 @@
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import { useState } from "react";
+
+import Task1 from "./components/Task1";
 
 function Navigator(props) {
     const route = props.route;
     switch (route) {
-        case "Oranges":
-            break;
+        case "Task 1":
+            return <Task1 />;
         default:
             return <Home />;
     }

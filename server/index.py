@@ -1,17 +1,21 @@
-from flask import Flask
+from flask import Flask, jsonify
 import requests
-import json
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods = ['GET'])
 def hello_world():
-    response = requests.get("http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json")
+    williamsburgLongitude = "-76.70"
+    williamsburgLatitude = "37.27"
+    response = requests.get("http://www.7timer.info/bin/api.pl?lon={}&lat={}&product=astro&output=json".format(williamsburgLongitude,williamsburgLatitude))
     weatherData = response.json() 
-    # print(weatherData)
+    # if you get ever stuck:
+    # print(weatherData['dataseries'][0])
 
     direction = weatherData['dataseries'][0]["wind10m"]["direction"]
     speed = weatherData['dataseries'][0]["wind10m"]["speed"]
     
     windData = { "direction": direction, "speed": speed }
-    return str(windData)
+    response = jsonify(windData)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response

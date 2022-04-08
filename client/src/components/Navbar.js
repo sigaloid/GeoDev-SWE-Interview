@@ -26,7 +26,7 @@ function Navbar(props) {
         <div
             id="navbar-text"
             style={{
-                position: "relative",
+                position: "fixed",
                 width: "100%",
                 height: "70px",
                 backgroundColor: "#4ab89c",
