@@ -27,7 +27,7 @@ python3 --version
 
 ## Getting Started
 
-At this point, feel free to open a Command Prompt like the one in the image above and `cd` into the folder where you would like to store the project. Here is an example:
+If you ran the above commands successfully, `cd` into the folder where you would like to store the project. Here is an example:
 
 ```
 cd Documents
