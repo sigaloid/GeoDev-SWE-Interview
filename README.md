@@ -52,3 +52,15 @@ If you have done everything right. You should see something like this:
  * Debug mode: off
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
+Feel free to open `http://127.0.0.1:5000/` in Chrome or safari once you have gotten to this step. You should see something like this:
+```
+{"direction":"S","speed":3}
+```
+## Running the React frontend
+Open up a separate terminal and `cd` back into the `GeoDev-SWE-Interview` folder (same folder where you ran `git clone https://github.com/jacobsomer/GeoDev-SWE-Interview.git`). Run the following commands:
+```
+cd client
+npm install
+npm start
+```
+You should see a web page open up on your browser. Go to task 1 and begin. Good luck!
