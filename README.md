@@ -44,4 +44,4 @@ cd server
 set FLASK_ENV=index
 flask run
 ```
-`set FLASK_ENV=index` may cause an error if you are using a different terminal than CMD (ex. bash, fish, powershell). If that is the case, please read the [docs](https://flask.palletsprojects.com/en/2.1.x/config/) for the right command.
+`set FLASK_APP=index` may cause an error if you are using a different terminal than CMD (ex. bash, fish, powershell). If that is the case, please read the [docs](https://flask.palletsprojects.com/en/2.1.x/cli/) for the right command.
