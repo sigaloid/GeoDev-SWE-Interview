@@ -30,7 +30,18 @@ python3 --version
 At this point, feel free to open a Command Prompt like the one in the image above. Here is an example:
 
 ```
-cd documents
+cd Documents
 git clone https://github.com/jacobsomer/GeoDev-SWE-Interview.git
 cd GeoDev-SWE-Interview
 ```
+## Running the Flask server
+Once you are in the `GeoDev-SWE-Interview` folder on terminal, run the following commands
+
+```
+python -m ensurepip --upgrade
+pip install Flask
+cd server
+set FLASK_ENV=index
+flask runplea
+```
+`set FLASK_ENV=index` may cause an error if you are using a different terminal than CMD (ex. bash, fish, powershell). If that is the case, please read the [docs](https://flask.palletsprojects.com/en/2.1.x/config/) for the right command.
