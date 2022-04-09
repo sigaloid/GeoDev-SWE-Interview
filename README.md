@@ -45,3 +45,10 @@ set FLASK_APP=index
 flask run
 ```
 `set FLASK_APP=index` may cause an error if you are using a different terminal than CMD (ex. bash, fish, powershell). If that is the case, please read the [docs](https://flask.palletsprojects.com/en/2.1.x/cli/) for the right command.
+If you have done everything right. You should see something like this:
+```
+ * Serving Flask app "index"
+ * Environment: index
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
