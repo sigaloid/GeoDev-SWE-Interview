@@ -14,8 +14,8 @@ def hello_world():
 
     direction = weatherData['dataseries'][0]["wind10m"]["direction"]
     speed = weatherData['dataseries'][0]["wind10m"]["speed"]
-    
-    windData = { "direction": direction, "speed": speed }
+    temp = weatherData['dataseries'][0]["temp2m"]
+    windData = { "direction": direction, "speed": speed, "temp": temp }
     response = jsonify(windData)
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response

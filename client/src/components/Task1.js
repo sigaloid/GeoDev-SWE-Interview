@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Task1() {
     const [speed, setSpeed] = useState("");
     const [direction, setDirection] = useState("");
-
+    const [temperature, setTemperature] = useState("");
     useEffect(() => {
         async function getWindSpeed() {
             fetch("http://127.0.0.1:5000/")
@@ -12,6 +12,7 @@ function Task1() {
                     const data = JSON.parse(response);
                     setDirection(data.direction);
                     setSpeed(data.speed);
+		    setTemperature(data.temp);
                 })
                 .catch((err) => console.log(err));
         }
@@ -53,6 +54,9 @@ function Task1() {
                     <div>
                         Wind direction in Williamsburg right now: {direction}
                     </div>
+		    <div>
+			Temperature in Williamsburg right now: {temperature}
+		    </div>
                 </div>
             </div>
         </div>
